@@ -362,6 +362,7 @@ footer {
 		font-size: 1.3rem;
 		padding: 3.5em 6em;
 		width: 62%;
+		z-index: 1;
 	}
 
 	.action__title {
@@ -375,6 +376,8 @@ footer {
 
 	footer {
 		padding: 8em 0;
+		position: absolute;
+		width: 100vw;
 	}
 
 	.logo__footer {
