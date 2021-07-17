@@ -37,6 +37,8 @@ img {
 }
 
 body {
+	display: flex;
+	flex-direction:  column;
 	min-height: 100vh;
   	margin: 0;
   	text-rendering: optimizeSpeed;
@@ -175,6 +177,7 @@ header {
 }
 
 footer {
+	flex-grow: 1;
 	background-color: var(--neutral-dark-cyan);
 	color: hsl(0, 0%, 100%);
 	padding: 10em 0 3em 0;
@@ -280,7 +283,6 @@ footer {
 		background: url(images/bg-hero-desktop.svg);
 		background-position: center 150%;
 		background-color: var(--neutral-pale-cyan);
-		overflow: hidden;
 	}
 
 	.huddle__container {
@@ -362,7 +364,6 @@ footer {
 		font-size: 1.3rem;
 		padding: 3.5em 6em;
 		width: 62%;
-		z-index: 1;
 	}
 
 	.action__title {
@@ -376,8 +377,6 @@ footer {
 
 	footer {
 		padding: 8em 0;
-		position: absolute;
-		width: 100vw;
 	}
 
 	.logo__footer {
